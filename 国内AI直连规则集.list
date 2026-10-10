@@ -1,0 +1,16 @@
+# DeepSeek 规则集
+# > Web UI 及主站
+DOMAIN-SUFFIX,deepseek.com
+DOMAIN-SUFFIX,deepseek.chat
+
+# > 开发者与 API 平台
+DOMAIN-SUFFIX,api.deepseek.com
+DOMAIN-SUFFIX,chat.deepseek.com
+DOMAIN-SUFFIX,coder.deepseek.com
+DOMAIN-SUFFIX,platform.deepseek.com
+
+
+# Qwen (通义千问 / 阿里大模型生态) 规则集
+# > Qwen 官方独立域名
+DOMAIN-SUFFIX,qwen.ai
+DOMAIN-SUFFIX,qwenlm.ai

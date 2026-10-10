@@ -1,0 +1,5 @@
+# NAME: 拒绝连接规则集（mac软件）
+# >>> [Domain] 精确匹配 (高优先级)
+DOMAIN,ip-api.com
+DOMAIN,order.luckydogsoft.com
+DOMAIN,store.typora.io

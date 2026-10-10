@@ -1,0 +1,26 @@
+# NAME: Grok和Perplexity规则集
+# UPDATED: 2026-03-17
+# DOMAIN: 2
+# DOMAIN-SUFFIX: 5
+# TOTAL: 7
+
+# >>> [Domain] 精确匹配 (高优先级)
+DOMAIN,api.x.ai
+DOMAIN,pplx-res.cloudinary.com
+
+# >>> [Domain-Suffix] 后缀匹配
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,perplexity.com
+DOMAIN-SUFFIX,pplx.ai
+
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,assetsconfigcdn.org
+DOMAIN-SUFFIX,imgs.search.brave.com
+DOMAIN-SUFFIX,beyondwickedmapping.org
+DOMAIN-SUFFIX,intercom.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,chronosphere.io
+DOMAIN-SUFFIX,featureassets.org
+DOMAIN-SUFFIX,prodregistryv2.org
+

@@ -1,0 +1,12 @@
+# NAME: 自建Emby服务规则
+# UPDATED: 2026-03-17
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 2
+# TOTAL: 3
+
+# >>> [Domain] 精确匹配 (高优先级)
+DOMAIN,shanhai.me
+
+# >>> [Domain-Suffix] 后缀匹配
+DOMAIN-SUFFIX,tv.hohai.eu.org
+DOMAIN-SUFFIX,yyssr.org
