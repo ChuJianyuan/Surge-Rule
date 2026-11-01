@@ -1,31 +1,38 @@
+# NAME: AI General Rules 规则集
+# UPDATED: 2026-11-01
 # TOTAL: 27
-# > Ai general rules
+
+# >>> [DOMAIN] 精确域名
 DOMAIN,api.statsig.com
+DOMAIN,api3.siftscience.com
 DOMAIN,browser-intake-datadoghq.com
+DOMAIN,browser-intake-us5-datadoghq.com
+DOMAIN,cdn.usefathom.com
+DOMAIN,http-intake.logs.us5.datadoghq.com
 DOMAIN,static.cloudflareinsights.com
+
+# >>> [DOMAIN-SUFFIX] 域名后缀
 DOMAIN-SUFFIX,algolia.net
-DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,arkoselabs.com
-DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com
+DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,segment.io
-DOMAIN-SUFFIX,amazonaws.com
-DOMAIN-SUFFIX,wp.com
 DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,statsigapi.net
 DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,wp.com
 
-# >>> [2026-11-01] 补充规则（保留原有条目）
-DEST-PORT,123
-DOMAIN-KEYWORD,stripe
-DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com
+# >>> [DOMAIN-KEYWORD] 域名关键字
 DOMAIN-KEYWORD,datadog
 DOMAIN-KEYWORD,sift
-DOMAIN,cdn.usefathom.com
-DOMAIN,http-intake.logs.us5.datadoghq.com
-DOMAIN,browser-intake-us5-datadoghq.com
-DOMAIN,api3.siftscience.com
+DOMAIN-KEYWORD,stripe
+
+# >>> [DEST-PORT] 目标端口
+DEST-PORT,123
