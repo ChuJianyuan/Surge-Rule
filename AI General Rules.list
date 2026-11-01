@@ -1,3 +1,4 @@
+# TOTAL: 27
 # > Ai general rules
 DOMAIN,api.statsig.com
 DOMAIN,browser-intake-datadoghq.com
@@ -17,3 +18,14 @@ DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,wp.com
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,stripe.com
+
+# >>> [2026-11-01] 补充规则（保留原有条目）
+DEST-PORT,123
+DOMAIN-KEYWORD,stripe
+DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com
+DOMAIN-KEYWORD,datadog
+DOMAIN-KEYWORD,sift
+DOMAIN,cdn.usefathom.com
+DOMAIN,http-intake.logs.us5.datadoghq.com
+DOMAIN,browser-intake-us5-datadoghq.com
+DOMAIN,api3.siftscience.com
